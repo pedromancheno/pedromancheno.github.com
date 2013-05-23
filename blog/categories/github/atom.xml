@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[NSRambling]]></title>
-  <link href="http://pedromancheno.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: github | NSRambling]]></title>
+  <link href="http://pedromancheno.github.io/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://pedromancheno.github.io/"/>
   <updated>2013-05-23T17:03:52-03:00</updated>
   <id>http://pedromancheno.github.io/</id>
