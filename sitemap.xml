@@ -1,21 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>
-            http://pedromancheno.github.io/blog/2013/05/23/deploying-octopress-to-github-pages-and-setting-custom-subdomain-cname/
-        </loc>
-        <lastmod>2013-05-23T17:02:51-03:00</lastmod>
+        <loc>http://pedromancheno.github.com/blog/2013/05/23/first-steps/</loc>
+        <lastmod>2013-05-23T23:52:48-03:00</lastmod>
     </url>
     <url>
-        <loc>http://pedromancheno.github.io/blog/archives/</loc>
-        <lastmod>2013-05-23T17:02:51-03:00</lastmod>
+        <loc>http://pedromancheno.github.com/blog/2013/05/24/building-blocks/</loc>
+        <lastmod>2013-05-31T21:08:34-03:00</lastmod>
     </url>
     <url>
-        <loc>http://pedromancheno.github.io/</loc>
-        <lastmod>2013-05-23T17:02:51-03:00</lastmod>
+        <loc>http://pedromancheno.github.com/blog/archives/</loc>
+        <lastmod>2013-05-31T21:08:34-03:00</lastmod>
     </url>
     <url>
-        <loc>http://pedromancheno.github.io/robots.txt</loc>
+        <loc>http://pedromancheno.github.com/</loc>
+        <lastmod>2013-05-31T21:08:34-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://pedromancheno.github.com/robots.txt</loc>
         <lastmod>2013-05-23T01:16:40-03:00</lastmod>
     </url>
 </urlset>

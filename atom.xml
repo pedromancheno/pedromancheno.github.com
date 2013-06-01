@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[NSRambling]]></title>
-  <link href="http://pedromancheno.github.io/atom.xml" rel="self"/>
-  <link href="http://pedromancheno.github.io/"/>
-  <updated>2013-05-23T17:03:52-03:00</updated>
-  <id>http://pedromancheno.github.io/</id>
+  <link href="http://pedromancheno.github.com/atom.xml" rel="self"/>
+  <link href="http://pedromancheno.github.com/"/>
+  <updated>2013-05-31T21:08:41-03:00</updated>
+  <id>http://pedromancheno.github.com/</id>
   <author>
     <name><![CDATA[Pedro Mancheno]]></name>
     
@@ -14,11 +14,46 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Deploying Octopress to Github Pages and setting custom subdomain CNAME]]></title>
-    <link href="http://pedromancheno.github.io/blog/2013/05/23/deploying-octopress-to-github-pages-and-setting-custom-subdomain-cname/"/>
-    <updated>2013-05-23T17:01:00-03:00</updated>
-    <id>http://pedromancheno.github.io/blog/2013/05/23/deploying-octopress-to-github-pages-and-setting-custom-subdomain-cname</id>
-    <content type="html"><![CDATA[
+    <title type="html"><![CDATA[Building Blocks]]></title>
+    <link href="http://pedromancheno.github.com/blog/2013/05/24/building-blocks/"/>
+    <updated>2013-05-24T13:28:00-03:00</updated>
+    <id>http://pedromancheno.github.com/blog/2013/05/24/building-blocks</id>
+    <content type="html"><![CDATA[<p>The blog you are reading was built using the <a href="http://octopress.org">Octopress</a> blogging framework. It runs on <a href="https://github.com/mojombo/Jekyll">Jekyll</a>, which is a static site generator.</p>
+
+<p>Unlike blogging platforms like Wordpress or Blogger which offer a CMS approach to blogging, Octopress focuses on simple writing and fast deployment. This means that once you have configured your environment, maintaining and deploying your blog is a very pleasant experience.</p>
+
+<p>The setup process, however, is the most daunting aspect of Octopress. There&rsquo;s a reason why the platform promotes itself as &lsquo;A blogging framework for hackers&rsquo;. To get you up and running you will need to be familiar with:</p>
+
+<ul>
+<li>Using of the command-line (Terminal)</li>
+<li>Obtaining SSHs</li>
+<li>Basic understanding of Ruby</li>
+<li>Using GIT</li>
+</ul>
+
+
+<p>However, it&rsquo;s not so bad as it seems. Octopress&#8217; documentation will guide you through the basic <a href="http://octopress.org/docs/setup/">installation and setup</a> and its <a href="http://octopress.org/docs/deploying/github/">deployment to GitHub</a>.</p>
+
+<p>All in all, a pretty straight-forward task.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First Steps]]></title>
+    <link href="http://pedromancheno.github.com/blog/2013/05/23/first-steps/"/>
+    <updated>2013-05-23T23:52:00-03:00</updated>
+    <id>http://pedromancheno.github.com/blog/2013/05/23/first-steps</id>
+    <content type="html"><![CDATA[<p>Hello!</p>
+
+<p>Welcome to NSRambling. This blog is intended to serve as a repository of notes, tips and tricks on iOS Development and other technologies.</p>
+
+<p>Many times I find myself revisiting old projects where I came up with a certain solution for a certain problem. Trying to find that particular piece of code is often a lengthy taks so I figured it would be a nice idea to keep those in a centralized place and what better place than a blog so that I may also share these thoughts with others who might be having the same issue!</p>
+
+<p>I also wanted to try out <a href="http://octopress.org">Octopress</a> for the first time. My previous blogging attempts were unfruitful, in part because I don&rsquo;t like Blogger or Wordpress. Doing simple tasks like getting a post up or configuring the blog itself are always a pain, plus I really enjoy using <a href="http://en.wikipedia.org/wiki/Markdown">Markdown</a>.</p>
+
+<p>I think my next post should be about my personal experience setting up Octopress and deploying it on GitHub!</p>
+
+<p>Until then,</p>
 ]]></content>
   </entry>
   
