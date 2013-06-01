@@ -4,7 +4,7 @@
   <title><![CDATA[NSRambling]]></title>
   <link href="http://pedromancheno.github.com/atom.xml" rel="self"/>
   <link href="http://pedromancheno.github.com/"/>
-  <updated>2013-05-31T21:16:40-03:00</updated>
+  <updated>2013-05-31T22:02:50-03:00</updated>
   <id>http://pedromancheno.github.com/</id>
   <author>
     <name><![CDATA[Pedro Mancheno]]></name>
@@ -20,7 +20,7 @@
     <id>http://pedromancheno.github.com/blog/2013/05/24/building-blocks</id>
     <content type="html"><![CDATA[<p>The blog you are reading was built using the <a href="http://octopress.org">Octopress</a> blogging framework. It runs on <a href="https://github.com/mojombo/Jekyll">Jekyll</a>, which is a static site generator.</p>
 
-<p>Unlike blogging platforms like Wordpress or Blogger which offer a CMS approach to blogging, Octopress focuses on simple writing and fast deployment. This means that once you have configured your environment, maintaining and deploying your blog is a very pleasant experience.</p>
+<p>Unlike platforms like Wordpress or Blogger which offer a CMS approach to blogging, Octopress focuses on simple writing and fast deployment. This means that once you have configured your environment, maintaining and deploying your blog is a very pleasant experience.</p>
 
 <p>The setup process, however, is the most daunting aspect of Octopress. There&rsquo;s a reason why the platform promotes itself as &lsquo;A blogging framework for hackers&rsquo;. To get you up and running you will need to be familiar with:</p>
 
