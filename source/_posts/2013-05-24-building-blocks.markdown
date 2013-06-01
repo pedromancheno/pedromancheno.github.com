@@ -7,7 +7,7 @@ categories:
 ---
 The blog you are reading was built using the [Octopress](http://octopress.org) blogging framework. It runs on [Jekyll](https://github.com/mojombo/Jekyll), which is a static site generator.
 
-Unlike blogging platforms like Wordpress or Blogger, Octopress favors of being lightweight and fast. This means that once you have configured your environment, creating and deploying your blog is a very pleasant experience.
+Unlike blogging platforms like Wordpress or Blogger which offer a CMS approach to blogging, Octopress focuses on simple writing and fast deployment. This means that once you have configured your environment, maintaining and deploying your blog is a very pleasant experience.
 
 The setup process, however, is the most daunting aspect of Octopress. There's a reason why the platform promotes itself as 'A blogging framework for hackers'. To get you up and running you will need to be familiar with:
 
