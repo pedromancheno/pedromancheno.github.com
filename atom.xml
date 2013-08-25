@@ -4,7 +4,7 @@
   <title><![CDATA[NSRambling]]></title>
   <link href="http://pedromancheno.github.com/atom.xml" rel="self"/>
   <link href="http://pedromancheno.github.com/"/>
-  <updated>2013-08-25T01:16:32-03:00</updated>
+  <updated>2013-08-25T01:20:29-03:00</updated>
   <id>http://pedromancheno.github.com/</id>
   <author>
     <name><![CDATA[Pedro Mancheno]]></name>
@@ -26,7 +26,7 @@
 
 <p><code>UIViewController</code> objects have a property named <code>childViewControllers</code>, which is an array of view controllers that is mantained automatically.</p>
 
-<p>Lets assume we have two view controllers named <code>dadVC</code> and <code>kidVC</code>. Of course, we&rsquo;d like to add <code>kidVC</code> as a child of <code>dadViewController</code> and present it in <code>dadVC</code>&rsquo;s interface.</p>
+<p>Lets assume we have two view controllers named <code>dadVC</code> and <code>kidVC</code>. Of course, we&rsquo;d like to add <code>kidVC</code> as a child of <code>dadVC</code> and present it in <code>dadVC</code>&rsquo;s interface.</p>
 
 <p>The first step would be for <code>dadVC</code> to send a <code>addChildViewController:</code> message to himself, passing <code>kidVC</code> as an argument. <code>kidVC</code> will be retained (since it&rsquo;s added to <code>dadVC</code>&rsquo;s <code>childViewControllers</code> array).  It&rsquo;s important to understand that this action will trigger <code>dadVC</code>&rsquo;s <code>viewDidLoad</code> method.</p>
 
