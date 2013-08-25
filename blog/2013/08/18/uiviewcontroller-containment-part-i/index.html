@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>NSRambling</title>
+  <title>UIViewController Containment - Part I - NSRambling</title>
   <meta name="author" content="Pedro Mancheno">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://pedromancheno.github.com">
+  <link rel="canonical" href="http://pedromancheno.github.com/blog/2013/08/18/uiviewcontroller-containment-part-i">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="NSRambling" type="application/atom+xml">
@@ -63,15 +63,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/08/18/uiviewcontroller-containment-part-i/">UIViewController Containment - Part I</a></h1>
+      <h1 class="entry-title">UIViewController Containment - Part I</h1>
     
     
       <p class="meta">
@@ -94,7 +91,7 @@
   </header>
 
 
-  <div class="entry-content"><p>In an effort to support more complex interfaces, Apple introduced in iOS 5, the ability for developers to manage view controller containment. This allows apps to steer away from the use of view controllers such as <code>UITabViewController</code>, <code>UINavigationController</code>, etc.</p>
+<div class="entry-content"><p>In an effort to support more complex interfaces, Apple introduced in iOS 5, the ability for developers to manage view controller containment. This allows apps to steer away from the use of view controllers such as <code>UITabViewController</code>, <code>UINavigationController</code>, etc.</p>
 
 <p>Still, the idea of managing several child view controllers seems daunting to developers and for a good reason. Apple hasn&rsquo;t made a good job of streamlining the use of containment.</p>
 
@@ -132,74 +129,16 @@ kidVC.view.frame = ...;
 
 <p>As you can see, it&rsquo;s not too hard but not too straightforward, either.</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/05/24/building-blocks/">Building Blocks</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Posted by <span class="fn">Pedro Mancheno</span></span>
 
-<time datetime="2013-05-24T13:28:00-03:00" pubdate data-updated="true">May 24<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>The blog you are reading was built using the <a href="http://octopress.org">Octopress</a> blogging framework. It runs on <a href="https://github.com/mojombo/Jekyll">Jekyll</a>, which is a static site generator.</p>
-
-<p>Unlike platforms like Wordpress or Blogger which offer a CMS approach to blogging, Octopress focuses on simple writing and fast deployment. This means that once you have configured your environment, maintaining and deploying your blog is a very pleasant experience.</p>
-
-<p>The setup process, however, is the most daunting aspect of Octopress. There&rsquo;s a reason why the platform promotes itself as &lsquo;A blogging framework for hackers&rsquo;. To get you up and running you will need to be familiar with:</p>
-
-<ul>
-<li>Using of the command-line (Terminal)</li>
-<li>Obtaining SSHs</li>
-<li>Basic understanding of Ruby</li>
-<li>Using GIT</li>
-</ul>
-
-
-<p>However, it&rsquo;s not so bad as it seems. Octopress&#8217; documentation will guide you through the basic <a href="http://octopress.org/docs/setup/">installation and setup</a> and its <a href="http://octopress.org/docs/deploying/github/">deployment to GitHub</a>.</p>
-
-<p>All in all, a pretty straight-forward task.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/05/23/first-steps/">First Steps</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -211,37 +150,32 @@ kidVC.view.frame = ...;
   
 
 
-<time datetime="2013-05-23T23:52:00-03:00" pubdate data-updated="true">May 23<span>rd</span>, 2013</time>
-        
-      </p>
+<time datetime="2013-08-18T19:09:00-03:00" pubdate data-updated="true">Aug 18<span>th</span>, 2013</time>
+      
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>Hello!</p>
-
-<p>Welcome to NSRambling. This blog is intended to serve as a repository of notes, tips and tricks on iOS Development and other technologies.</p>
-
-<p>Many times I find myself revisiting old projects where I came up with a certain solution for a certain problem. Trying to find that particular piece of code is often a lengthy taks so I figured it would be a nice idea to keep those in a centralized place and what better place than a blog so that I may also share these thoughts with others who might be having the same issue!</p>
-
-<p>I also wanted to try out <a href="http://octopress.org">Octopress</a> for the first time. My previous blogging attempts were unfruitful, in part because I don&rsquo;t like Blogger or Wordpress. Doing simple tasks like getting a post up or configuring the blog itself are always a pain, plus I really enjoy using <a href="http://en.wikipedia.org/wiki/Markdown">Markdown</a>.</p>
-
-<p>I think my next post should be about my personal experience setting up Octopress and deploying it on GitHub!</p>
-
-<p>Until then,</p>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://pedromancheno.github.com/blog/2013/08/18/uiviewcontroller-containment-part-i/" data-via="" data-counturl="http://pedromancheno.github.com/blog/2013/08/18/uiviewcontroller-containment-part-i/" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/05/24/building-blocks/" title="Previous Post: Building Blocks">&laquo; Building Blocks</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -269,6 +203,7 @@ kidVC.view.frame = ...;
 
   
 </aside>
+
 
     </div>
   </div>
