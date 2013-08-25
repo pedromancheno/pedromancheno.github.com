@@ -98,9 +98,9 @@
 
 <p>Still, the idea of managing several child view controllers seems daunting to developers and for a good reason. Apple hasn&rsquo;t made a good job of streamlining the use of containment.</p>
 
-<p>Adding a view controller as other view controller&rsquo;s child involves more than one step and failing to ackowdelge any step means a potential bug. Thus, it is important to handle containment in a responsible way!</p>
+<p>Adding a view controller as a child of another view controller involves more than one step and failing to ackowdelge any of these could mean a potential bug. Thus, it is important to handle containment in a responsible way!</p>
 
-<p>The <code>UIViewController</code> class has a <code>childViewControllers</code> array that is mantained automatically.</p>
+<p><code>UIViewController</code> objects have a property named <code>childViewControllers</code>, which is an array of view controllers that is mantained automatically.</p>
 
 <p>Lets assume we have two view controllers named <code>dadVC</code> and <code>kidVC</code>. Of course, we&rsquo;d like to add <code>kidVC</code> as a child of <code>dadViewController</code> and present it in <code>dadVC</code>&rsquo;s interface.</p>
 
